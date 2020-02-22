@@ -1,0 +1,65 @@
+body {
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.banner-content {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.button-blue {
+  color: #169498;
+  border: solid 3px #169498;
+  border-radius: 5px;
+  padding: 15px 28px;
+  font-size: 18px;
+  font-weight: 700;
+  transition-duration: 0.4s;
+}
+
+.button-blue:hover {
+  background-color: #169498;
+  text-decoration: none;
+  color: white;
+}
+
+/*Small devices*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .button-blue {
+    background-color: #169498;
+    color: white;
+  }
+}
+
+
