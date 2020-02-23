@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # FontAwesome
 gem 'font-awesome-sass', '~> 5.12.0'
+# Barnes gem for Heroku Language Metrics
+gem "barnes"
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
