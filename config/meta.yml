@@ -1,0 +1,5 @@
+meta_product_name: "Product Name"
+meta_title: "Mathias Thibaud - Full Stack Web Developer"
+meta_description: "I create modern and responsive web applications. I am a Full Stack Web Developer based in Vancouver, BC."
+meta_image: "cover.png" # should exist in `app/assets/images/`
+twitter_account: "@math_thibaud" # required for Twitter Cards
