@@ -9,7 +9,19 @@
 
 <div class="work">
   <h2 class="title">Work</h2>
-  <h4>Coming soon.</h4>
+  <div class="project-cards">
+    <% @projects.each do |project| %>
+      <div class="project-card">
+        <%= image_tag project.image_url, :class => "project-image" %>
+        <div class="middle">
+          <div class="project-info">
+            <h3><%= project.title %></h3>
+            <p><%= project.description %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </div>
 
 <div class="contact">
@@ -22,3 +34,4 @@
   <a href="https://www.linkedin.com/in/mathiasthibaud/" target="_blank"><i class="fab fa-linkedin"></i></a>
   <a href="https://github.com/ma-thibaud" target="_blank"><i class="fab fa-github-square"></i></a>
 </div>
+
