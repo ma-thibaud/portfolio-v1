@@ -27,7 +27,7 @@ sample_app = Project.create!(
   description: "Personal project to create a site with Twitter-like microposts and a status feed of posts from followed users.",
   website_url: "https://obscure-reaches-21485.herokuapp.com/",
   behance_url: "",
-  image_url: "https://res.cloudinary.com/darvd5cv4/image/upload/v1582658424/Miniature-SampleApp_ya1tu1.png",
+  image_url: "https://res.cloudinary.com/darvd5cv4/image/upload/v1582852732/Miniature-SampleApp-2_z8outq.png",
   color: "#212121"
   )
 
