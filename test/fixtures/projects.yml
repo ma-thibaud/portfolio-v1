@@ -1,13 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+valid1:
   title: MyString
   description: MyText
   website_url: MyString
-  behance_url: MyString
+  image_url: MyString
 
-two:
+valid2:
   title: MyString
   description: MyText
   website_url: MyString
-  behance_url: MyString
+  image_url: MyString
