@@ -7,7 +7,7 @@
 
 // Main
 body {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   text-align: center;
   max-width: 1440px;
   margin: auto;
@@ -36,10 +36,10 @@ h4 {
 .banner-content {
   margin-top: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-  height: 60vh;
+  height: 50vh;
   h4 {
     margin-top: 20px;
   }
@@ -72,14 +72,14 @@ h4 {
   position: relative;
 }
 
-.title::after{
-    content: "";
-    position: absolute;
-    width: 50%;
-    height: 1px;
-    bottom: 0;
-    left: 25%;
-    border-bottom: 3px solid #169498;
+.title::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 3px solid #169498;
 }
 
 // Contact
@@ -110,7 +110,8 @@ h4 {
 
 /*Small devices*/
 @media (max-width: 768px) {
-  h1, h2 {
+  h1,
+  h2 {
     font-size: 48px;
   }
   h4 {
