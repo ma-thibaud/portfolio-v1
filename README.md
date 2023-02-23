@@ -1,24 +1,6 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h1 align="center">
+  mathiasthibaud.com - v1
+</h1>
+<p align="center">
+  This is the first iteration of <a href="https://www.mathiasthibaud.com/" target="_blank">mathiasthibaud.com</a> built with <a href="https://rubyonrails.org/" target="_blank">Ruby on Rails</a> and hosted with <a href="https://www.heroku.com/" target="_blank">Heroku</a>
+</p>
